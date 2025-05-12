@@ -35,6 +35,58 @@ h1 {
   line-height: 1.1;
 }
 
+h2.entry-fullname {
+  font-size: 7vh;
+}
+
+p.entry-text {
+    font-size: 3vh;
+
+}
+
+
+
+article.journal-entry {
+  display: flex;
+
+}
+
+article.journal-entry .main-image-container {
+  width: 40vh;
+  height: 40vh;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+
+article.journal-entry .main-image {
+  width: 40vh;
+  height: 50vh;
+  object-fit: cover;
+}
+
+article.journal-entry .main-image-marker {
+  height: 7vh;
+  width: 10vh;
+  object-fit: cover;
+  
+}
+
+
+.info-container .span-container {
+  margin-left: 12px;
+}
+
+.info-container span.country {
+  text-transform: uppercase;
+  font-size: 6vh;
+}
+
+.info-container span.hometown {
+  font-size: 4vh;
+  margin-left: 15px;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
