@@ -18,7 +18,7 @@ export default [
 
         {id: 5,
         country: "USA",
-        hometown: "Greensboro, NC",
+        hometown: "High Point, NC",
         name: "Danny Fernandez",
         position: "Right back",
         image: { src: `./images/Danny.jpg`, alt: "Danny" }},
@@ -95,7 +95,7 @@ export default [
 
         {id: 16,
         country: "England",
-        hometown: "Notthingam",
+        hometown: "Notthingham",
         name: "Tom Marriott",
         position: "Striker",
         image: { src: `./images/Tom.jpg`, alt: "Tom" }},
