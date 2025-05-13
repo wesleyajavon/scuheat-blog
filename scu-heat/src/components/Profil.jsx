@@ -9,7 +9,7 @@ export default function Profil(props) {
 
             <div className="info-container">
                 <span>
-                    <img className="main-image-marker" src={props.flag.src} alt="map marker icon" />
+                    <img className="main-image-flag" src={`./flags/${props.country}.png`} alt={`${props.country}`} />
                 </span>
 
                 <span className="span-container">
